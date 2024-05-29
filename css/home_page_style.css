@@ -1,0 +1,99 @@
+/* imports */
+@import url("system_themes_and_fonts.css");
+@import url("system_elements_style.css");
+@import url("system_layout.css");
+@import url("home_page_media_query.css");
+
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+/* header and navbar style */
+
+.mobile {
+    display: none;
+}
+
+.header {
+    background-color: var(--color-ivory);
+}
+
+.navbar .img-nav img {
+    max-width: 100%;
+    height: auto;
+}
+
+.main-section {
+    background-image: url(".././assets/background4.png");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.main-section .home-title {
+    position: absolute;
+    top: 30%;
+    left: 3%;
+    text-align: center;
+}
+
+.main-section .home-title h4{
+    font-style: italic;
+}
+
+/* Cruds Section */
+
+.cruds {
+    background-color: var(--color-ivory);
+}
+
+.cruds .section-cruds .crud {
+    width: 20%;
+    height: auto;
+    padding: 10px;
+    border: 1px solid var(--color-white);
+    border-radius: 10px;
+    background-color: var(--color-liquid-gold);
+}
+
+.cruds .section-cruds .crud img{
+    max-width: 100%;
+    height: 70%;
+}
+
+.cruds .section-cruds .crud p {
+    padding: 0 5px;
+}
+
+.cruds .section-cruds .crud:hover {
+    background-color: var(--color-haver-liquid-gold);
+}
+
+.cruds .section-cruds button {
+    background-color: var(--color-ivory);
+}
+
+/* Subscribe Section */
+
+.subscribe .subscriber-info {
+    padding: 15px;
+    width: 30%;
+}
+
+.subscribe .subscriber-info button {
+    background-color: var(--color-liquid-gold);
+    color: var(--color-ivory);
+}
+
+.subscribe .subscriber-info button:hover {
+    background-color: var(--color-haver-liquid-gold);
+
+}
+
+/* Footer Section */
+
+.footer {
+    background-color: var(--color-liquid-gold);
+    text-align: center;
+}

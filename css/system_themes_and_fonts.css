@@ -1,0 +1,107 @@
+/* Theme */
+
+:root {
+    /* main web colors */
+    --color-ivory: #fff7f7;
+    --color-liquid-gold: #9f4d6d;
+    --color-white: #fff;
+    --color-black: #000;
+    --color-haver-liquid-gold: #a6617a;
+    --color-twitter: #1da1f2;
+    --color-facebook: #1877f2;
+    --color-linkedin:  #0077b5;
+
+    /* Font sizes */
+    --font-size-mobile-h1: 40px;
+    --font-size-mobile-h2: 25px;
+
+    --font-size-tablet-h1: 55px;
+    --font-size-tablet-h2: 35px;
+    --font-size-tablet-h4: 20px;
+    --font-size-tablet-h6: 18px;
+    --font-size-tablet-p: 16px;
+
+    --font-size-laptop-h1: 70px;
+    --font-size-laptop-h2: 50px;
+    --font-size-laptop-h3: 25px;
+    --font-size-laptop-h4: 16px;
+    --font-size-laptop-h6: 14px;
+    --font-size-laptop-p: 12px;
+
+    /* Letter Spacing */
+    --letter-spacing-sm-screens: 1.5px;
+    --letter-spacing-lg-screens: 2px;
+
+}
+
+/* Fonts */
+
+h1 {
+    font-size: var(--font-size-laptop-h1);
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    color: var(--color-liquid-gold);
+    padding: 0;
+    margin: 35px 0 10px 0; /* top right bottom left*/
+}
+
+h2 {
+    font-size: var(--font-size-laptop-h2);
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    color: var(--color-liquid-gold);
+    padding: 0;
+    margin: 35px 0 10px 0; /* top right bottom left*/
+}
+
+h3 {
+    font-size: var(--font-size-laptop-h3);
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    color: var(--color-liquid-gold);
+    padding: 0;
+    margin: 35px 0 10px 0; /* top right bottom left*/
+}
+
+h4 {
+    font-size: var(--font-size-laptop-h4);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100px;
+    color: var(--color-liquid-gold);
+    padding: 0;
+    margin: 15px 0 15px 0; /* top right bottom left*/
+}
+
+h6 {
+    font-size: var(--font-size-laptop-h6);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300px;
+    color: var(--color-ivory);
+    padding: 0;
+    margin: 10px 0 5px 0; /* top right bottom left*/
+}
+
+p {
+    font-size: var(--font-size-laptop-p);
+    font-family: "Libre Baskerville", serif;
+    color: var(--color-black); 
+}
+
+.image-caption {
+    text-align: center;
+}
+
+.section-title {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.section-title {
+    padding: 0;
+}
+
+.section-title h4 {
+    letter-spacing: var(--letter-spacing-lg-screens);
+    text-transform: uppercase;
+    opacity: 0.5;
+}

@@ -1,0 +1,100 @@
+/* imports */
+@import url("system_themes_and_fonts.css");
+@import url("system_elements_style.css");
+
+/* Mobile Media Query */
+@media (max-width: 480px) {
+   
+    h1 {
+        font-size: var(--font-size-mobile-h1);
+    }
+
+    h2 {
+        font-size: var(--font-size-mobile-h2);
+    }
+
+    .container .header {
+        grid-template-columns: 30% 70% !important;
+    }
+
+    .container .header img {
+        width: 60% !important;
+    }
+
+    .personal-info {
+        flex-direction: column !important;
+        margin: 0 !important;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .recipe {
+        grid-template-columns: none !important;
+        grid-template-rows: 850px 400px !important;
+        padding: 5px 0 !important;
+    }
+
+    .recipe .title h1 {
+        text-align: center;
+    }
+
+}
+
+
+/* Tablet Media Query */
+@media (min-width: 481px) and (max-width: 768px) {
+         
+    h1 {
+        font-size: var(--font-size-tablet-h1);
+    }
+
+    h2 {
+        font-size: var(--font-size-tablet-h2);
+    }
+    
+    h4 {
+        font-size: var(--font-size-tablet-h4);
+    }
+    
+    h6 {
+        font-size: var(--font-size-tablet-h4);
+    }
+    
+    p {
+        font-size: var(--font-size-tablet-p);
+    }
+    
+    .container .header {
+        grid-template-columns: 35% 65% !important;
+    }
+
+    .container .header img {
+        width: 40% !important;
+    }
+
+    .personal-info {
+        flex-direction: column !important;
+        margin: 0 !important;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding-top: 10px;
+        margin: 0 150px 0 150px !important;
+    }
+
+    .recipe {
+        grid-template-columns: none !important;
+        grid-template-rows: 550px 850px !important;
+        padding-left: 0 !important;
+    }
+
+    .recipe .title h1 {
+        text-align: center;
+    }
+
+    .recipe .title {
+        padding-bottom: 10px !important;
+    }
+}

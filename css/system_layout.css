@@ -1,0 +1,74 @@
+/* Main Page Grid */
+
+.container {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 90px 640px 780px 300px 50px;
+    grid-template-areas: 
+        "hd hd hd hd hd"
+        "main main main main main"
+        "crud crud crud crud crud"
+        "sub sub sub sub sub"
+        "ft ft ft ft ft";
+}
+
+.header {
+    grid-area: hd;
+}
+
+.main-section {
+    grid-area: main;    
+}
+
+.cruds {
+    grid-area: crud;     
+}
+
+.subscribe {
+    grid-area: sub;      
+}
+
+.footer {
+    grid-area: ft; 
+}
+
+/* Navbar Flex */
+
+.navbar {
+    display: grid;
+    grid-template-rows: 100%;
+    grid-template-columns: 43% 12% 43%;
+    align-items: center;
+    justify-content: center;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* Cruds Flex */
+
+.cruds .section-cruds {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Subscribe Section */
+
+.subscribe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subscriber-info {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-gap: 10px;
+}
